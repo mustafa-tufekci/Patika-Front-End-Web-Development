@@ -1,0 +1,17 @@
+body{
+    background-color: #E9ECEF;
+}
+
+ul {
+    text-align: center;
+    list-style: inside;
+  }
+
+.about_us{
+    text-align: center;
+    margin:0 auto;
+}
+
+.card-title{
+    color: purple;
+}

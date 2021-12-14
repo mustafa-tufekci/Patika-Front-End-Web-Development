@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodluyoruz | JavaScript Odev 1</title>
+    <style>
+        body{
+            background: #32383E;
+        }
+        .text-center{
+            text-align: center;
+            vertical-align: middle;
+        }
+        #clock{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text1{
+            color: #e98208;
+            font-size: 50px;
+            font-family: sans-serif;
+            letter-spacing: 5px;
+        }
+        .text2{
+            color: #e98208;
+            font-size: 47px;
+            font-family: Orbitron;
+            letter-spacing: 5px;
+            font-family: sans-serif;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 17%;
+        }
+        .container-center{
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 120px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-center">
+        <img src="65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" alt="">
+
+        <div class="text1 text-center">
+            Merhaba, <strong><span id="name"></span></strong>! Hoş Geldin!
+        </div>
+        
+        <div id="clock" class ="text2" onload="showTime()"></div>
+        <div class="text2 text-center">
+            tarihinde <strong>Kodluyoruz Frontend Web Development Patikası</strong>'nın
+            JavaScript bölümü 1.ödevindesiniz.
+        </div>
+    </div>
+
+    <script src="js/clock.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+#navbar-title{
+    font-size: 30px;
+    color: #d23e59;
+    text-align: center;
+}
+
+.nav-link{
+    margin-left: 10px;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+
+.products{
+    text-align: center;
+}
+
+.about_us{
+    padding: 25px;
+}
+
+.text-center{
+    text-align: center;
+}

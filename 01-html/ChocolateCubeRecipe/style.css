@@ -1,0 +1,35 @@
+.container h5{
+    color: white;
+    background-color: brown;
+    border-radius: 15px;
+    margin-left: auto;
+    display: inline;
+}
+
+#paragraf2{
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.asd{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+p span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#afied{
+    text-align: center;
+    margin-left: 600px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
