@@ -29,7 +29,7 @@ function createListElement(){
         liDOM.innerHTML = inputTrim;
         list.appendChild(liDOM);
         input.value = "";
-        $(".success").toast("show");
+        $(".success").toast("show");  //Bootstrap toast'un hangi durumlarda göstereliceğine jquery ile müdahele etme
     } else {
         $(".error").toast("show");
     }
@@ -45,7 +45,7 @@ function createListElement(){
           var div = this.parentElement;
           div.style.display = "none";
         }
-      }
+    }
 }
 
 list.addEventListener('click',(event)=>{
